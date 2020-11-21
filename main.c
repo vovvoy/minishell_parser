@@ -40,7 +40,8 @@ void print_cmds(t_list *cmd_list)
 	{
 		cmd = cmd_list->content;
 		arg = cmd->args->content;
-		printf("printf = %d\n\n", printf("name = %s\nflags = %s\narg_name = %s\narg_is_env = %d\n", cmd->name, cmd->flags, arg->name, arg->is_env));
+		// printf("printf = %d\n\n", printf("name = %s\nflags = %s\narg_name = %s\narg_is_env = %d\n", 
+				// cmd->name, cmd->flags, arg->name, arg->is_env));
 		cmd_list = cmd_list->next;
 	}
 }
@@ -57,134 +58,8 @@ void	example(t_info *info)
 	ft_lstadd_back(&(info->cmd), ft_lstnew(cmd));
 	print_cmds(info->cmd);
 }
-int			strl(char *str)
-{
-	char	*s;
 
-	if (!str)
-		return (0);
-	s = str;
-	while (*s)
-		s++;
-	return (s - str);
-}
 
-char		*strj(char *s1, char s2)
-{
-	unsigned int	i;
-	char			*out_str;
-
-	if (!s1 || !s2)
-		return (NULL);
-	i = -1;
-	if (!(out_str = malloc(sizeof(char) * (strl(s1) + 2))))
-		return (NULL);
-	while (s1[++i])
-		out_str[i] = s1[i];
-	free(s1);
-	out_str[i++] = s2;
-	out_str[i] = '\0';
-	return (out_str);
-}
-
-int cmd_count(char *cmd)
-{
-	int i;
-	int j;
-	int cnt;
-	char *str;
-	int len;
-
-	len = strl(cmd);
-	cnt = 0;
-	str = malloc(sizeof(char) * 1);
-	*str = '\0';
-	i = -1;
-
-	while (cmd[++i])
-	{
-		// if (len >= i + 1)
-		// {
-			if (/*((cmd[i] == ' ' || cmd[i] == 34 || cmd[i] == 39) && cmd[i + 1] == 39) || */cmd[i] == 39)
-			{
-				// if (cmd[i] == ' ')
-				// 	i += 2;
-				// if (cmd[i] == 39)
-				i++;
-				while (cmd[i] != 39 && i < len)
-				{
-					str = strj(str, cmd[i++]);
-				}
-				printf("\t\t\t|%s|\n", str);
-				free(str);
-				if (cmd[i + 1] == ' ')
-					printf("\t\t\t| |\n");
-				str = malloc(sizeof(char) * 1);
-				*str = '\0'; 
-				if (i == len)
-					return (-1);
-				cnt++;
-				// if (cmd[i + 1] == ' ')
-				// i++;
-				// printf("'\n");
-			}
-
-			if (/*((cmd[i] == ' ' || cmd[i] == 34 || cmd[i] == 39) && cmd[i + 1] == 34) || */cmd[i] == 34)
-			{
-				// if (cmd[i] == ' ')
-				// 	i += 2;
-				// if (cmd[i] == 34)
-				i++;
-				while (cmd[i] != 34 && i < len)
-				{
-					str = strj(str, cmd[i++]);
-				}
-				printf("\t\t\t|%s|\n", str);
-				free(str);
-				if (cmd[i + 1] == ' ')
-					printf("\t\t\t| |\n");
-				str = malloc(sizeof(char) * 1);
-				*str = '\0'; 
-				if (i == len)
-					return (-1);
-				cnt++;
-				// i++;
-				// printf("%c\n", cmd[i]);
-			}
-			
-			if (cmd[i] != 34 && cmd[i] != 39 && cmd[i] != ' '/*((cmd[i] == ' ' || i == 0) && cmd[i + 1] != ' ' && cmd[i] != 34 && cmd[i] != 39) || cmd[i] != ' '*/)
-			{
-				// if (cmd[i] == ' ' || cmd[i] == 34 || cmd[i] == 39) 
-				// 	i++;
-				// printf("%d\n", i);
-				while (cmd[i] != ' ' && cmd[i] && cmd[i] != 34 && cmd[i] != 39)
-					str = strj(str, cmd[i++]);
-				// printf("%d\n", i);
-				printf("\t\t\t|%s|\n", str);
-				free(str);
-				if (cmd[i] == ' ')
-					printf("\t\t\t| |\n");
-				str = malloc(sizeof(char) * 1);
-				*str = '\0';
-				cnt++;
-				// if (cmd[i + 1] != 34 || cmd[i + 1] != 39)
-				i--;
-				// printf("%s\n", cmd[i]);
-			}
-		// }
-	}
-	return (cnt);
-}
-
-void	parser(char *command)
-{
-	int cmnd;
-
-	if (!command)
-		return ;
-	printf("count = %d\n" , cmd_count(command));
-
-}
 
 int main(int argc, char **argv, char *envp[])
 {
@@ -192,7 +67,7 @@ int main(int argc, char **argv, char *envp[])
 	example(&info);
 
 
-	parser("'fdgfdg'\"hello   world!!!\"'ghd''echo'this is the      first example'sb       vovvoy'kjfgj\"    hello      world\"'ABC't sljfd");
+	parser("'fdgfdg'\"hello   world!!!\"'ghd''echo'this is the      first example");
 	 
 	
 	return (0);

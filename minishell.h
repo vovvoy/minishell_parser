@@ -39,4 +39,9 @@ typedef struct			s_info
 	t_list				*env;
 }						t_info;
 
+void		parser(char *command);
+int			cmd_count(char *cmd);
+char		*strj(char *s1, char s2);
+
+
 #endif

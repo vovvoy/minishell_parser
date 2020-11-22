@@ -60,31 +60,75 @@ int cmd_count(char *cmd)
 		if (cmd[i] == 34)
 		{
 			i++;
-			while (cmd[i] != 34 && i < len)
+			while(1)
 			{
-				str = strj(str, cmd[i++]);
+				while (cmd[i] != 34 && i < len && cmd[i] != 36)
+				{
+					str = strj(str, cmd[i++]);
+				}
+				if (i == len)
+					return (-1);
+				printf("\t\t\t|%s|\n", str);
+				free(str);
+				if (cmd[i] == 34)
+					if (cmd[i + 1] == 32)
+						printf("\t\t\t| |\n");
+				str = malloc(sizeof(char) * 1);
+				*str = '\0';
+				cnt++;
+				if (cmd[i] == 34)
+					break ;
+				i++;
+				while (cmd[i] != 39 && cmd[i] != 34 && cmd[i] != 32 && cmd[i] != 36 && i < len)
+					str = strj(str, cmd[i++]);
+				printf("\t\t\t|%s|\n", str);
+				free(str);
+				str = malloc(sizeof(char) * 1);
+				*str = '\0';
+				cnt++;
 			}
-			printf("\t\t\t|%s|\n", str);
-			free(str);
-			if (cmd[i + 1] == ' ')
-				printf("\t\t\t| |\n");
-			str = malloc(sizeof(char) * 1);
-			*str = '\0'; 
-			if (i == len)
-				return (-1);
-			cnt++;
 		}
 		
-		if (cmd[i] != 34 && cmd[i] != 39 && cmd[i] != ' ')
+		if (cmd[i] == 36)
 		{
-			while (cmd[i] != ' ' && cmd[i] && cmd[i] != 34 && cmd[i] != 39)
+			i++;
+			while (cmd[i] != 39 && cmd[i] != 34 && cmd[i] != 32 && cmd[i] != 36 && i < len)
+					str = strj(str, cmd[i++]);
+			printf("\t\t\t|%s|\n", str);
+			free(str);
+			str = malloc(sizeof(char) * 1);
+			*str = '\0';
+			if (cmd[i] == 32)
+				printf("\t\t\t| |\n");
+			cnt++;
+			i--;
+			continue ;
+		}
+
+		if (cmd[i] != 34 && cmd[i] != 39 && cmd[i] != 32 && cmd[i] != 36)
+		{
+			while (cmd[i] != 32 && cmd[i] && cmd[i] != 34 && cmd[i] != 39 && cmd[i] != 36)
 				str = strj(str, cmd[i++]);
 			printf("\t\t\t|%s|\n", str);
 			free(str);
-			if (cmd[i] == ' ')
+			if (cmd[i] == 32)
 				printf("\t\t\t| |\n");
 			str = malloc(sizeof(char) * 1);
 			*str = '\0';
+			cnt++;
+			if (cmd[i] != 36)
+			{
+				i--;
+				continue ;
+			}
+			while (cmd[i] != 39 && cmd[i] != 34 && cmd[i] != 32 && cmd[i] != 36 && i < len)
+					str = strj(str, cmd[i++]);
+			printf("\t\t\t|%s|\n", str);
+			free(str);
+			str = malloc(sizeof(char) * 1);
+			*str = '\0';
+			if (cmd[i] == 32)
+				printf("\t\t\t| |\n");
 			cnt++;
 			i--;
 		}

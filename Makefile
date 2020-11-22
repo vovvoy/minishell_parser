@@ -34,7 +34,7 @@ HEADERS =										\
 SRC = 		$(wildcard $(GNL_DIR)/*.c)			\
 			$(wildcard $(MINISHELL_DIR)/*.c)	\
 			$(wildcard $(PARSER_DIR)/*.c)		\
-#			$(wildcard $(EXECUTOR_DIR)/*.c)
+			$(wildcard $(EXECUTOR_DIR)/*.c)
 
 
 OBJ = 		$(patsubst %.c, %.o, $(SRC))

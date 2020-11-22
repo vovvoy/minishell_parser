@@ -67,7 +67,7 @@ int main(int argc, char **argv, char *envp[])
 	example(&info);
 
 
-	parser("'fdgfdg'\"hello   world!!!\"'ghd''echo'this is the      first example");
+	parser("'fdgfdg'\"hello$ljerrica  world!!! $$haha blabla\"        $hello marsel $blabla 'ghd' 'echo$hello hello' this is the  ''    first example");
 	 
 	
 	return (0);

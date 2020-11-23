@@ -40,8 +40,8 @@ void print_cmds(t_list *cmd_list)
 	{
 		cmd = cmd_list->content;
 		arg = cmd->args->content;
-		// printf("printf = %d\n\n", printf("name = %s\nflags = %s\narg_name = %s\narg_is_env = %d\n", 
-				// cmd->name, cmd->flags, arg->name, arg->is_env));
+		printf("printf = %d\n\n", printf("name = %s\nflags = %s\narg_name = %s\narg_is_env = %d\n", 
+				cmd->name, cmd->flags, arg->name, arg->is_env));
 		cmd_list = cmd_list->next;
 	}
 }
@@ -64,10 +64,10 @@ void	example(t_info *info)
 int main(int argc, char **argv, char *envp[])
 {
 	t_info info;
-	example(&info);
+	// example(&info);
 
-
-	parser("'fdgfdg'\"hello$ljerrica  world!!! $$haha blabla\"        $hello marsel $blabla 'ghd' 'echo$hello hello' this is the  ''    first example");
+ 
+	parser("echo -n 'hello world'", &info);
 	 
 	
 	return (0);

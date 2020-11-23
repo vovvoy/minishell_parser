@@ -67,7 +67,7 @@ int main(int argc, char **argv, char *envp[])
 	// example(&info);
 
  
-	parser("echo -n 'hello world'", &info);
+	parser("echo-n'hello world' $PATH||", &info);
 	 
 	
 	return (0);

@@ -6,27 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line.h
+../get_next_line/get_next_line.h
 unistd.h
 -
 stdlib.h
 -
 
-/Users/ljerrica/Desktop/minishell_parser/libft/libft.h
+../libft/libft.h
 stdlib.h
 -
 
-/Users/ljerrica/Desktop/minishell_parser/minishell.h
+../minishell.h
 libft/libft.h
-/Users/ljerrica/Desktop/minishell_parser/libft/libft.h
+../libft/libft.h
 get_next_line/get_next_line.h
-/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line.h
+../get_next_line/get_next_line.h
+parser/parser.h
+../parser/parser.h
 
-/Users/ljerrica/Desktop/minishell_parser/parser.c
+../parser/parser.h
+
+/Users/ljerrica/Desktop/minishell_parser/parser/parser.c
 minishell.h
-/Users/ljerrica/Desktop/minishell_parser/minishell.h
+/Users/ljerrica/Desktop/minishell_parser/parser/minishell.h
 libft/libft.h
-/Users/ljerrica/Desktop/minishell_parser/libft/libft.h
+/Users/ljerrica/Desktop/minishell_parser/parser/libft/libft.h
 stdio.h
 -
 stdlib.h

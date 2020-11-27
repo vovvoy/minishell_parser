@@ -10,13 +10,6 @@ include_directories(libft)
 include_directories(parser)
 
 add_executable(minishell_parser
-        executor/add_var.c
-        executor/cd.c
-        executor/echo.c
-        executor/executor.h
-        executor/executor_utils.c
-        executor/export.c
-        executor/pwd.c
         get_next_line/get_next_line.c
         get_next_line/get_next_line.h
         get_next_line/get_next_line_utils.c
@@ -64,16 +57,7 @@ add_executable(minishell_parser
         libft/ft_tolower.c
         libft/ft_toupper.c
         libft/libft.h
-        parser/cd.c
-        parser/echo.c
-        parser/env.c
-        parser/exit.c
-        parser/export.c
-        parser/ls.c
         parser/parser.h
-        parser/pwd.c
-        parser/unset.c
-        parser/utils.c
         main.c
         minishell.h
-        parser.c)
+        parser/parser.c)

@@ -88,27 +88,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/executor/add_var.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/executor/cd.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/executor/echo.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/executor/executor.h">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/executor/executor_utils.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/executor/export.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/executor/pwd.c">
-			<Option target="minishell_parser"/>
-		</Unit>
 		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line.c">
 			<Option target="minishell_parser"/>
 		</Unit>
@@ -256,37 +235,10 @@
 		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/minishell.h">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/cd.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/echo.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/env.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/exit.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/export.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/ls.c">
+		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/parser.c">
 			<Option target="minishell_parser"/>
 		</Unit>
 		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/parser.h">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/pwd.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/unset.c">
-			<Option target="minishell_parser"/>
-		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/utils.c">
 			<Option target="minishell_parser"/>
 		</Unit>
 		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/CMakeLists.txt">

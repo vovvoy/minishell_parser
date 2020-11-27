@@ -4,12 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/ljerrica/Desktop/minishell_parser/executor/add_var.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/executor/add_var.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/executor/cd.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/executor/cd.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/executor/echo.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/executor/echo.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/executor/executor_utils.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/executor/executor_utils.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/executor/export.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/executor/export.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/executor/pwd.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/executor/pwd.c.o"
   "/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/get_next_line/get_next_line.c.o"
   "/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line_utils.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/get_next_line/get_next_line_utils.c.o"
   "/Users/ljerrica/Desktop/minishell_parser/libft/ft_atoi.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/libft/ft_atoi.c.o"
@@ -56,16 +50,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ljerrica/Desktop/minishell_parser/libft/ft_tolower.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/libft/ft_tolower.c.o"
   "/Users/ljerrica/Desktop/minishell_parser/libft/ft_toupper.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/libft/ft_toupper.c.o"
   "/Users/ljerrica/Desktop/minishell_parser/main.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/main.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/cd.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/cd.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/echo.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/echo.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/env.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/env.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/exit.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/exit.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/export.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/export.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/ls.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/ls.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/pwd.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/pwd.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/unset.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/unset.c.o"
-  "/Users/ljerrica/Desktop/minishell_parser/parser/utils.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/utils.c.o"
+  "/Users/ljerrica/Desktop/minishell_parser/parser/parser.c" "/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/CMakeFiles/minishell_parser.dir/parser/parser.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

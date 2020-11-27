@@ -1,10 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/minishell_parser.dir/executor/add_var.c.o"
-  "CMakeFiles/minishell_parser.dir/executor/cd.c.o"
-  "CMakeFiles/minishell_parser.dir/executor/echo.c.o"
-  "CMakeFiles/minishell_parser.dir/executor/executor_utils.c.o"
-  "CMakeFiles/minishell_parser.dir/executor/export.c.o"
-  "CMakeFiles/minishell_parser.dir/executor/pwd.c.o"
   "CMakeFiles/minishell_parser.dir/get_next_line/get_next_line.c.o"
   "CMakeFiles/minishell_parser.dir/get_next_line/get_next_line_utils.c.o"
   "CMakeFiles/minishell_parser.dir/libft/ft_atoi.c.o"
@@ -50,19 +44,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell_parser.dir/libft/ft_substr.c.o"
   "CMakeFiles/minishell_parser.dir/libft/ft_tolower.c.o"
   "CMakeFiles/minishell_parser.dir/libft/ft_toupper.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/cd.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/echo.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/env.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/exit.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/export.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/ls.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/pwd.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/unset.c.o"
-  "CMakeFiles/minishell_parser.dir/parser/utils.c.o"
   "CMakeFiles/minishell_parser.dir/main.c.o"
-  "CMakeFiles/minishell_parser.dir/parser.c.o"
-  "minishell_parser.pdb"
+  "CMakeFiles/minishell_parser.dir/parser/parser.c.o"
   "minishell_parser"
+  "minishell_parser.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

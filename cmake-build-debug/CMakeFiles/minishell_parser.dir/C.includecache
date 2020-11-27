@@ -26,6 +26,38 @@ parser/parser.h
 
 ../parser/parser.h
 
+/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line.h
+unistd.h
+-
+stdlib.h
+-
+
+/Users/ljerrica/Desktop/minishell_parser/libft/libft.h
+stdlib.h
+-
+
+/Users/ljerrica/Desktop/minishell_parser/main.c
+minishell.h
+/Users/ljerrica/Desktop/minishell_parser/minishell.h
+libft/libft.h
+/Users/ljerrica/Desktop/minishell_parser/libft/libft.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+stdio.h
+-
+
+/Users/ljerrica/Desktop/minishell_parser/minishell.h
+libft/libft.h
+/Users/ljerrica/Desktop/minishell_parser/libft/libft.h
+get_next_line/get_next_line.h
+/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line.h
+parser/parser.h
+/Users/ljerrica/Desktop/minishell_parser/parser/parser.h
+
 /Users/ljerrica/Desktop/minishell_parser/parser/parser.c
 minishell.h
 /Users/ljerrica/Desktop/minishell_parser/parser/minishell.h
@@ -39,4 +71,6 @@ unistd.h
 -
 stdio.h
 -
+
+/Users/ljerrica/Desktop/minishell_parser/parser/parser.h
 

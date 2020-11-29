@@ -63,6 +63,7 @@ int cmd_count(char *line, t_info *info)
 	pars.len = ft_strlen(line);
 	pars.str = malloc(sizeof(char));
 	pars.i = -1;
+
 	while (line[++pars.i])
 	{
 		if (shite(line, &pars.i))
@@ -286,7 +287,7 @@ void	parser(char *command, t_info *info)
 
 	if (!command) 
 		return ;
-	printf("count = %d\n" , cmd_count(command, info));
+	cmd_count(command, info);
 	while (info->cmd_list->next)
 	{
 		cmd = info->cmd_list->content;

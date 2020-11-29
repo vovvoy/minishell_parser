@@ -8,240 +8,238 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug"/>
+				<Option working_dir="/home/oleg/Desktop/minishell/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug"/>
+				<Option working_dir="/home/oleg/Desktop/minishell/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug"/>
+				<Option working_dir="/home/oleg/Desktop/minishell/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="minishell_parser">
-				<Option output="/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/minishell_parser" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug"/>
+				<Option output="/home/oleg/Desktop/minishell/cmake-build-debug/minishell_parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oleg/Desktop/minishell/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/."/>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/executor"/>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/get_next_line"/>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/libft"/>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/parser"/>
+					<Add directory="/home/oleg/Desktop/minishell/."/>
+					<Add directory="/home/oleg/Desktop/minishell/executor"/>
+					<Add directory="/home/oleg/Desktop/minishell/get_next_line"/>
+					<Add directory="/home/oleg/Desktop/minishell/libft"/>
+					<Add directory="/home/oleg/Desktop/minishell/parser"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 minishell_parser"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 minishell_parser"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="minishell_parser/fast">
-				<Option output="/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/minishell_parser" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug"/>
+				<Option output="/home/oleg/Desktop/minishell/cmake-build-debug/minishell_parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/oleg/Desktop/minishell/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/."/>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/executor"/>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/get_next_line"/>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/libft"/>
-					<Add directory="/Users/ljerrica/Desktop/minishell_parser/parser"/>
+					<Add directory="/home/oleg/Desktop/minishell/."/>
+					<Add directory="/home/oleg/Desktop/minishell/executor"/>
+					<Add directory="/home/oleg/Desktop/minishell/get_next_line"/>
+					<Add directory="/home/oleg/Desktop/minishell/libft"/>
+					<Add directory="/home/oleg/Desktop/minishell/parser"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 minishell_parser/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/ljerrica/Desktop/minishell_parser/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 minishell_parser/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oleg/Desktop/minishell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line.c">
+		<Unit filename="/home/oleg/Desktop/minishell/get_next_line/get_next_line.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line.h">
+		<Unit filename="/home/oleg/Desktop/minishell/get_next_line/get_next_line.h">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/get_next_line/get_next_line_utils.c">
+		<Unit filename="/home/oleg/Desktop/minishell/get_next_line/get_next_line_utils.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_atoi.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_atoi.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_bzero.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_bzero.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_calloc.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_calloc.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_isalnum.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_isalnum.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_isalpha.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_isalpha.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_isascii.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_isascii.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_isdigit.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_isdigit.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_isprint.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_isprint.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_itoa.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_itoa.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstadd_back.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstadd_back.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstadd_front.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstadd_front.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstclear.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstclear.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstdelone.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstdelone.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstiter.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstiter.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstlast.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstlast.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstmap.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstmap.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstnew.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstnew.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_lstsize.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_lstsize.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_memccpy.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_memccpy.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_memchr.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_memchr.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_memcmp.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_memcmp.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_memcpy.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_memcpy.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_memmove.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_memmove.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_memset.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_memset.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_putchar_fd.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_putchar_fd.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_putendl_fd.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_putendl_fd.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_putnbr_fd.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_putnbr_fd.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_putstr_fd.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_putstr_fd.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_split.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_split.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strchr.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strchr.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strdup.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strdup.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strjoin.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strjoin.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strlcat.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strlcat.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strlcpy.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strlcpy.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strlen.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strlen.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strmapi.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strmapi.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strncmp.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strncmp.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strnstr.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strnstr.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strrchr.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strrchr.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_strtrim.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_strtrim.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_substr.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_substr.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_tolower.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_tolower.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/ft_toupper.c">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/ft_toupper.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/libft/libft.h">
+		<Unit filename="/home/oleg/Desktop/minishell/libft/libft.h">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/main.c">
+		<Unit filename="/home/oleg/Desktop/minishell/main.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/minishell.h">
+		<Unit filename="/home/oleg/Desktop/minishell/minishell.h">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/parser.c">
+		<Unit filename="/home/oleg/Desktop/minishell/parser/parser.c">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/parser/parser.h">
+		<Unit filename="/home/oleg/Desktop/minishell/parser/parser.h">
 			<Option target="minishell_parser"/>
 		</Unit>
-		<Unit filename="/Users/ljerrica/Desktop/minishell_parser/CMakeLists.txt">
+		<Unit filename="/home/oleg/Desktop/minishell/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
